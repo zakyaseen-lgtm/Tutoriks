@@ -557,7 +557,7 @@
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     
     var blurEls = document.querySelectorAll(
-      '.card,.step,.subject-card,.tutor-card,.t-card,.lp-method-card,.lead-form,.filter-card'
+      '.card,.step,.subject-card,.tutor-card,.t-card,.lp-method-card,.lead-form,.filter-card,.outcome-card'
     );
     var textEls = document.querySelectorAll(
       '.hero-title,.hero-lede,.display,.welcome-lede,.section-title,.hero-kicker'
